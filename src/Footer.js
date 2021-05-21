@@ -2,17 +2,23 @@ import './css/App.css';
 import "./css/Responsive.css";
 function Footer() {
   return (
-    <div className="Footer-head">
-      <footer className="Footer-body">
-        <ul className='Footer-list'>
-          <li><a href='/https://linkedin.com/in/fisheranike/'>Linkedin</a></li>
-          <li><a href='/https://github.com/nickstape/'>Github</a></li>
-          <li><a href='/https://medium.com/@anike.fisher'>Medium</a></li>
-          <li><a href='https://vsco.co/maryfisher/gallery'>Vsco</a></li>
-          <li><p>👋</p></li>
-        </ul>
-      </footer>
-    </div>
+    <div  data-v-5ef39566 className='c-section c-footer'>
+           <div data-v-5ef39566 className="c-footer__column">
+             <a href='/https://linkedin.com/in/fisheranike/'>Linkedin</a>
+           </div>
+           <div data-v-5ef39566 className="c-footer__column">
+             <a href='/https://github.com/nickstape/'>Github</a>
+           </div>
+           <div data-v-5ef39566 className="c-footer__column"> 
+              <a href='/https://medium.com/@anike.fisher'>Medium</a>
+           </div>
+           <div data-v-5ef39566 className="c-footer__column">
+              <a href='https://vsco.co/maryfisher/gallery'>Vsco</a>
+           </div>
+           <div data-v-5ef39566 className="c-footer__column">
+             <p>👋</p>
+           </div>
+     </div>
   );
 }
 

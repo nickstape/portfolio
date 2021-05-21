@@ -1,5 +1,10 @@
 /* navbar header */
-.navbar{
+nav[data-v-5ef39566] {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 30px;
   margin-left: 65px;
   position: relative;
   text-decoration: none;
@@ -7,18 +12,23 @@
   font-weight: bold;
   font-style: normal;
   padding: 10px;
-  transition: 0.2s ease color;
-  text-transform: uppercase;
+  opacity: 1;
+}
+.c-link--underline[data-v-5ef39566], a--underline[data-v-5ef39566] {
+  position: relative;
+}
+.c-link[data-v-5ef39566], a[data-v-5ef39566] {
+  outline: 0;
+  text-decoration: none;
+  color: #000;
+  --color: #000;
+}
+.nav-side, a[data-v-5ef39567]  {
+  letter-spacing: 0.03888888888888889rem;
+  padding-right: 30px;
+  color: #bfbfbf !important;
 }
 
-.navbar-brand{
-  font-size:0.7777777777777778rem  !important;
-  letter-spacing: 0.09444444444444444rem;
-  color: #000000;
-}
-.navbar-nav {
-  padding-left: 70% !important;
-}
 a {
   box-shadow: none !important;
   transition: all .2s linear;
@@ -28,11 +38,7 @@ a {
   text-decoration: none;
   color: #000000 !important;
 }
-.standard ul li a {
-  letter-spacing: 0.03888888888888889rem;
-  color: #bfbfbf !important;
-  font-size: 0.7777777777777778rem !important;
-}
+
 ul li a:after{
 color: #000000 !important;
 }
@@ -51,7 +57,7 @@ color: #000000 !important;
 }
 .content-details {
   padding-right: 1em;
-  padding-bottom: 10px;
+  margin-top: 90px;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0,20px,0);
@@ -182,15 +188,34 @@ span[data-v-3a5e27bg] {
 
 
 /* this section is the styling for footer*/
-.Footer-head{
-  padding-top: 10%;
-  bottom: 0%;
-  text-align: center;
+.c-footer[data-v-5ef39566] {
+  margin-top: 165px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.c-footer__column[data-v-5ef39566]:first-child {
+  transform: translateY(-7%);
+  z-index: 2;
+}
+.c-footer__column[data-v-5ef39566] {
+  flex-shrink: 0;
+  margin: 2%;
+}
+.c-link[data-v-5ef39566], a[data-v-5ef39566] {
+  outline: 0;
+  text-decoration: none;
+  color: #000;
+  --color: #000;
 }
 .Footer-body {
   display: flex;
   line-height: 1.3;
   font-size: 14px;
+  justify-content: space-between;
 }
 
 ul {
@@ -211,12 +236,12 @@ a:hover {
   box-shadow: inset 0 -1.2em 0 hsla(0, 1%, 59%, 0.568);
 }
 
-li:last-child {
+p:last-child {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
 
-li:hover ~ li p {
+p:hover ~  p {
   animation: wave-animation 0.3s infinite;
 }
 

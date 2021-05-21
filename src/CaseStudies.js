@@ -1,5 +1,5 @@
 
-import casebody from './case-body.svg';
+import casebody from './case-body.jpg';
 import './css/App.css';
 import "./css/Responsive.css"
 
@@ -7,7 +7,7 @@ function CaseStudies() {
   return (
           <div className="row CaseStudies-body">   
                          <div className='col-md-6 content-image'>
-                           <img src={casebody} alt='case-study-placeholder' className='case-img'/>
+                           <img type="image/jp" src={casebody} alt='case-study-placeholder' className='case-img'/>
                         </div>
                         <div className="col-md-6 content-details">
                             <p className='tagline overtext'>
