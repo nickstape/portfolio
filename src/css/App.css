@@ -6,7 +6,7 @@
   font-family: "sofia-pro", sans-serif;
   font-weight: bold;
   font-style: normal;
-  padding: 10px 20px;
+  padding: 10px;
   transition: 0.2s ease color;
   text-transform: uppercase;
 }
@@ -41,7 +41,6 @@ color: #000000 !important;
   height: 54vh;
   margin: 50px;
   place-items: center;
-  padding: calc(var(--space) * 2);
   cursor: pointer;
 }
 .case-img:hover{
@@ -86,7 +85,6 @@ color: #000000 !important;
   height: 54vh;
   margin: 70px auto;
   place-items: center;
-  padding: calc(var(--space) * 2);
   max-width: 700px;
 }
 .contents-body p{
@@ -94,6 +92,18 @@ color: #000000 !important;
   font-weight: 300;
   font-style: normal;
   font-size: 2.94444rem;
+}
+span[data-v-3a5e27be] {
+  text-decoration: none;
+  color: #ffa83d;
+}
+a{
+  text-decoration: none;
+  color: #0000ff;
+}
+span[data-v-3a5e27bg] {
+  text-decoration: none;
+  color: #0000ff;
 }
 .multi-button {
   display: flex;
@@ -156,7 +166,6 @@ color: #000000 !important;
   height: 54vh;
   margin: 70px auto;
   place-items: center;
-  padding: calc(var(--space) * 2);
   max-width: 700px;
 }
 .About-body p{
