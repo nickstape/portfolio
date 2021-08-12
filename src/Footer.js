@@ -15,9 +15,6 @@ function Footer() {
            <div data-v-5ef39566 className="c-footer__column">
               <a href='https://vsco.co/maryfisher/gallery'>Vsco</a>
            </div>
-           <div data-v-5ef39566 className="c-footer__column">
-             <p>👋</p>
-           </div>
      </div>
   );
 }
